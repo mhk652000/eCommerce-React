@@ -1,0 +1,66 @@
+* {
+  /* margin: 0; */
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.registerModal .ant-modal-content{
+  width: 800px !important;
+}
+
+.loginModal .ant-modal-content{
+  width: 105% !important;
+  margin-left: -10px;
+}
+
+
+@media (max-width: 950px) {
+  .registerModal .ant-modal-content{
+    width: 106% !important;
+    margin-left: -10px;
+  }
+
+  .cardMainRow .ant-col .ant-card{
+    width: 200px !important;
+    margin-left: -70px;
+  }
+
+  .blogCardMainRow .ant-col .ant-card{
+    width: 240px !important; 
+    margin-left: -80px;
+
+  }
+
+  .threeCard .ant-col .ant-card{
+    width: 200px !important;
+    margin-left: -70px;
+  }
+
+
+    .loginModal .ant-modal-content .newBtn{
+    
+    margin-left: 30px !important;
+    width: 250px !important;
+  }
+
+  .registerModal .ant-modal-content .newBtn{
+    
+    margin-left: 30px !important;
+    width: 250px !important;
+  }
+}
+
+
+
+

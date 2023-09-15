@@ -1,0 +1,50 @@
+.headerMain{
+    height: 100%;
+}
+
+.hHeadings{
+    height: 100%;
+    background-color: #F3FFF7;
+    text-align: center;
+    height: 250px;
+    
+}
+
+.headerText{
+    margin-top: 50px;
+    text-align: center;
+    font: 16px/30px Poppins;
+    font-weight: 600;
+    height: 100%;
+    color: #747f92;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.headerHeading1{
+    padding-top: 55px;
+    margin-bottom: 0px;
+    text-align: center;
+    font: Poppins;
+    letter-spacing: 0px;
+    color: #000000;
+    font-size: xxx-large;
+    font-weight: 700;
+    opacity: 1;
+}
+.headerHeading2{
+    height: 100%;
+    text-align: center;
+    font: Poppins;
+    letter-spacing: 0px;
+    color: #5ba10c;
+    font-size: xxx-large;
+    font-weight: 700;
+    opacity: 1;
+}
+
+@media (max-width: 950px) {
+    .hHeadings{
+        height: 300px;
+    }
+}

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" viewBox="0 0 70 70">
+  <g id="Group_65" data-name="Group 65" transform="translate(-615 -3882)">
+    <rect id="Rectangle_302" data-name="Rectangle 302" width="70" height="70" rx="35" transform="translate(615 3882)" fill="#5ba10c" opacity="0.3"/>
+    <rect id="Rectangle_301" data-name="Rectangle 301" width="50" height="50" rx="25" transform="translate(625 3892)" fill="#5ba10c"/>
+    <path id="Play" d="M8,7V19.257a1.18,1.18,0,0,0,1.822.994l9.628-6.127a1.183,1.183,0,0,0,0-2L9.822,6.01A1.18,1.18,0,0,0,8,7Z" transform="translate(636 3904.181)" fill="#fff"/>
+  </g>
+</svg>

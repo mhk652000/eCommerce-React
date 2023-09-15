@@ -1,0 +1,39 @@
+.minus {
+  width: 32px;
+  height: 32px;
+  background-color: #e2e5e6;
+  color: black;
+  opacity: 1;
+  border: 0;
+  border-radius: 5px;
+}
+
+.plus {
+  width: 32px;
+  height: 32px;
+  background-color: #e2e5e6;
+  color: black;
+  opacity: 1;
+  border: 0;
+  border-radius: 5px;
+}
+
+.countValue {
+  top: 578px;
+  left: 738px;
+  width: 32px;
+  height: 32px;
+  /* UI Properties */
+  background: #fbfbfb 0% 0% no-repeat padding-box;
+  border: 1px solid #e2e5e6;
+  border-radius: 5px;
+  opacity: 1;
+}
+
+.countMain{
+    margin-top: -23px;
+}
+
+.countValue::placeholder{
+    padding-left: 2px;
+}

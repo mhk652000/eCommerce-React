@@ -1,0 +1,112 @@
+.nav-header-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  .nav-header-container .trigger {
+    cursor: pointer;
+    -webkit-transition: color 0.3s;
+    transition: color 0.3s;
+  }
+  
+  .nav-header-container .trigger.bg-purple {
+    font-size: 20px !important;
+    color: white !important;
+    padding: 8px;
+    border-radius: 50% !important;
+    background-color: #022b3a;
+  }
+  
+  .nav-header-container .trigger:hover {
+    color: #022b3ab7;
+  }
+  
+  .nav-header-container .dashboard-title {
+    font-weight: 600;
+    display: inline-block !important;
+    padding-left: 1.2rem;
+    height: 37px;
+    color: #4d4f5c;
+    width: 172px;
+    margin-left: 10px;
+    text-transform: capitalize;
+  }
+  
+  .nav-header-container .site-layout-background-right {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  
+  .nav-header-container .site-layout-background-right div {
+    padding: 0 10px;
+    font-size: 1.7rem;
+  }
+  
+  .nav-header-container .site-layout-background-right .profile {
+    font-size: 1.2rem;
+    font-weight: 500;
+  }
+  
+  .nav-header-container .site-layout-background-right .headerIcons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 0;
+  }
+  
+  .nav-header-container .site-layout-background-right .headerIcons img {
+    width: 26px;
+    height: 31px;
+  }
+  
+  .nav-header-container .site-layout-background-right .profile img {
+    width: 47px;
+    height: 47px;
+    padding-left: 15px;
+  }
+  
+  .dropDownContainer {
+    color: #4d4f5c;
+    font-family: "Montserrat", sans-serif;
+    -webkit-box-shadow: 0 0 40px #0000001f;
+            box-shadow: 0 0 40px #0000001f;
+    font-family: 17px;
+    border-radius: 8px !important;
+    width: 250px;
+    height: max-content;
+  }
+  
+  .dropDownContainer .dropDownList {
+    border-radius: 8px !important;
+    padding: 10px 0;
+  }
+  
+  .dropDownContainer .dropDownList .dropDownItem {
+    padding: 0 25px;
+    margin: 0;
+  }
+  
+  .dropDownContainer .lastChild {
+    white-space: normal !important;
+    text-overflow: initial !important;
+    overflow: initial !important;
+    line-height: 2 !important;
+    height: 64px !important;
+  }
+  
+  .ant-dropdown {
+    top: 65px !important;
+  }
+  /*# sourceMappingURL=styles.css.map */

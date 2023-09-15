@@ -1,0 +1,215 @@
+.hearAboutMain {
+}
+.aboutMain {
+  margin-top: 30px;
+  margin-bottom: 40px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.aboutHeading {
+  font: poppins;
+  font-size: large;
+  font-weight: 600;
+  color: #5ba10c;
+  margin-bottom: 25px;
+}
+
+.aboutHead {
+  font: Poppins;
+  font-size: xx-large;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.aboutText {
+  margin-top: 70px;
+  width: 450px;
+  text-align: left;
+}
+
+.aboutTex {
+  padding-top: 10px;
+  color: #747f92;
+  text-align: left;
+  font: normal normal bold 13px/25px Poppins;
+  letter-spacing: 0px;
+  color: #747f92;
+  opacity: 1;
+}
+
+.outImgCont {
+  display: flex;
+  width: 579px;
+  height: 474px;
+}
+
+.innerImg {
+  width: 335px;
+  height: 474px;
+}
+
+.innerImgs {
+  padding-left: 25px;
+}
+
+.img1 {
+  width: 335px;
+  height: 474px;
+}
+
+.img2 {
+  width: 214px;
+  height: 222px;
+  margin-bottom: 28px;
+}
+
+.img3 {
+  width: 214px;
+  height: 222px;
+}
+
+.hearMain {
+  margin-top: 75px;
+  height: 100%;
+  background-color: #1e2f4f;
+  color: #fff;
+  
+}
+.video{
+  width: 100%;
+  margin-left: 25% !important;
+}
+
+.hearBox {
+  border: 5px solid #ffffff;
+  width: 71%;
+  margin-left: 175px;
+  margin-top: -400px;
+  height: 355px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.hearBox > h1 {
+  font: Poppins;
+  margin-top: 110px;
+}
+
+.hearBox > h3 {
+  margin-top: 25px;
+}
+
+.hearMain > img {
+  opacity: 0.1;
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
+}
+
+.hearImg {
+  height: 450px;
+  width: 100%;
+}
+
+.mainWrapperAbout {
+  display: flex;
+  margin-bottom: 5%;
+}
+
+.hhhhh {
+  width: 209px;
+  height: 40px;
+  text-align: left;
+  font: Poppins;
+  letter-spacing: 0px;
+  font-size: x-large;
+  font-weight: 500;
+  color: #747f92;
+  margin-bottom: -20px;
+  opacity: 1;
+}
+
+.hhh {
+  width: 732px;
+  height: 180px;
+  text-align: left;
+  font: Poppins;
+  letter-spacing: 0px;
+  color: #747f92;
+}
+
+@media (max-width: 950px) {
+  .aboutMain {
+    display: block;
+    width: 375px !important;
+  }
+
+  .aboutTex {
+    width: 100%;
+    text-align: center !important;
+  }
+
+  .tex {
+    margin-left: 0px !important;
+  }
+
+  .hHomeBtn {
+    margin-bottom: 2%;
+  }
+
+  .img1 {
+    width: 55%;
+    height: 60%;
+    margin-left: -150px;
+  }
+
+  .img2 {
+    width: 51%;
+    height: 40%;
+    margin-bottom: 2px;
+  }
+
+  .img3 {
+    width: 50%;
+    height: 40%;
+  }
+
+  .innerImgs {
+    margin-left: -265px;
+  }
+
+  .hearBox {
+    margin-left: 50px;
+  }
+
+  .abtTex {
+    text-align: center;
+  }
+
+  .aboutHeading {
+    margin-left: -70px !important;
+  }
+
+  .aboutHead {
+    margin-left: -70px !important;
+  }
+
+  .mainWrapperAbout {
+    display: block;
+  }
+
+  .headerHeading2 {
+    margin-bottom: 50px !important;
+  }
+
+  .hhh {
+    width: 300px;
+    margin-top: -40px;
+    height: 100%;
+  }
+
+  .texx{
+    width: 350px;
+    margin-left: 10px;
+  }
+}

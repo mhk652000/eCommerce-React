@@ -1,0 +1,71 @@
+.mainDrop {
+  border: 0 !important;
+  box-shadow: 0 !important;
+  font-size: 16px;
+  background-color: #ffffff;
+  border-bottom: 0px;
+  padding: 0;
+  margin: 0;
+}
+
+.ant-button:focus{
+    border:0 !important;
+    border-color: white !important;
+    box-shadow: none !important;
+    outline: unset;
+}
+.mainDrop:hover{
+    color:  #5BA10C !important;
+}
+
+.mainDrop:focus{
+    color:  #5BA10C !important;
+}
+
+.ant-dropdown{
+    margin-top: 6%;
+    background-color: #343434;
+}
+.ant-dropdown-menu{
+    background-color: #343434;
+    border: 0px;
+}
+
+
+.ant-dropdown-menu{
+    background-color: #343434 !important;
+}
+
+
+
+.ant-dropdown-menu-title-content{
+    background-color: #343434;
+    font-family:Poppins;
+    font-weight: 800;
+    color: #999999;
+    border: 0px;
+}
+
+.ant-dropdown-menu-title-content:hover{
+    color:#5BA10C;
+}
+.ant-dropdown-menu-item{
+    background-color: #343434;
+    
+}
+
+.ant-dropdown-menu-item-only-child{
+    color: #999999;
+
+}
+
+.ant-dropdown-menu-item>li{
+    color: #999999;
+}
+
+.css-dev-only-do-not-override-txh9fw{
+    outline: 0px !important;
+    outline-offset: 0px !important;
+    transition: none !important;
+}
+

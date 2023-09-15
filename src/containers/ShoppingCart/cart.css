@@ -1,0 +1,18 @@
+.cartMainWrapper{
+    display: flex;
+    margin-left: 10%;
+    margin-bottom: 5%;
+}
+
+.pcart{
+    margin-left: 4%;
+}
+
+
+
+@media (max-width: 950px) {
+
+    .cartMainWrapper{
+        display: block;
+    }
+}

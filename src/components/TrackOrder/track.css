@@ -1,0 +1,44 @@
+.trackCardMain {
+    width: 81%;
+    top: 494px;
+    left: 135px;
+    height: 240px;
+    /* UI Properties */
+    background: #fbfbfb 0% 0% no-repeat padding-box;
+    border: 1px solid #e2e5e6;
+    border-radius: 10px;
+    opacity: 1;
+    
+    
+}
+
+.outerWrapper{
+    margin-top: 3.5%; 
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.imgText{
+    display: flex;
+}
+.cardImage {
+  width: 114px;
+  height: 110px;
+}
+
+.cardImageText{
+    margin-left: 10px;
+    width: 190px;
+    text-align: left;
+}
+
+.trackAddress{
+    width: 190px;
+    text-align: left;
+    
+}
+
+.steps{
+    margin-left: -8%;
+    width: 520px;
+}

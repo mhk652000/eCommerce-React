@@ -1,0 +1,39 @@
+.ant-layout{
+  background-color: white !important;
+}
+.dashboard-layout{
+    color: white;
+    overflow: hidden;
+  }
+  
+  .dashboard-layout .dashboard-sidebar {
+    background-color: #022b3a !important;
+    font-family: montserrat, sans-serif;
+    background: #022b3a;
+  }
+  
+  .dashboard-layout .dashboard-main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  
+  .dashboard-layout .dashboard-main .dashboard-header {
+    background: #fff;
+  }
+  
+  .dashboard-layout .dashboard-main .dashboard-main-content {
+    min-height: calc(100vh - 64px); 
+     overflow: auto;
+    background-color: white;
+    width: calc(100vw - 245px);
+  }
+  
+  .dashboard-layout .dashboard-main .dashboard-main-content.sidebar-closed {
+    width: calc(100vw - 80px);
+  }
+  /*# sourceMappingURL=styles.css.map */

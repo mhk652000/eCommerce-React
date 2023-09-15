@@ -1,0 +1,35 @@
+
+.featuredMain{
+    margin-top: 50px;
+    text-align: left;
+}
+.featuredHeading{
+    margin-left: 158px;
+    font-weight: 700;
+    color: #747F92;
+}
+
+.featuredMainHeading{
+    margin-left: 155px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    font-size: xxx-large;
+}
+
+
+
+@media (max-width: 950px) {
+    .featuredMain{
+        width: 375px;
+    }
+.featuredHeading{
+    text-align: center;
+    margin-left: 0px;
+}
+
+.featuredMainHeading{
+    text-align: center;
+    margin-left: 0px;
+}
+
+}

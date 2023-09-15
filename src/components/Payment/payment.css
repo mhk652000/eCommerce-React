@@ -1,0 +1,68 @@
+.paymentType {
+  width: 100%;
+  margin-top: 0px;
+  text-align: left;
+  float: left;
+  margin-left: -50%;
+  accent-color: #5ba10c;
+}
+
+.paymentLabel {
+  padding-left: 5%;
+  text-align: left;
+  font: Poppins;
+  font-weight: 600;
+  letter-spacing: 0px;
+  color: #717b8a;
+  opacity: 1;
+  accent-color: #5ba10c
+}
+
+
+.deliveryDateInput{
+    width: 145px;
+    height: 40px;
+    margin-left: -45%;
+    /* UI Properties */
+    background: #ffffff 0% 0% no-repeat padding-box;
+    border: 1px solid #e2e5e6;
+    border-radius: 50px;
+    opacity: 1;
+    margin-bottom: 7%;
+}
+
+
+@media (max-width: 950px) {
+.paymentType{
+  margin-left: -262px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+.paymentLabelInput{
+  width: 90px;
+}
+
+.deliveryDateInput{
+  margin-left: -20px;
+  margin-bottom: -40px;
+}
+
+.deliveryInputForm{
+  margin-left: -20px;
+}
+.cvv{
+  margin-top: -18px;
+}
+ 
+.checkBoxPaymentDiv{
+  display: block !important;
+}
+.checkBoxPayment{
+  margin-left: 2% !important;
+  font-size: x-small;
+}
+
+}
+
+

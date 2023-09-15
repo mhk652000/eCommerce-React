@@ -1,0 +1,120 @@
+.loginModal{
+    margin-top: -60px;
+}
+
+.userInput {
+  padding-left: 18px;
+  top: 503px;
+  left: 545px;
+  width: 340px;
+  height: 50px;
+  /* UI Properties */
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #e2e5e6;
+  border-radius: 50px;
+  opacity: 1;
+  margin-bottom: 20px;
+}
+
+.passwordInput {
+  padding-left: 18px;
+  top: 503px;
+  left: 545px;
+  width: 340px;
+  height: 50px;
+  /* UI Properties */
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #e2e5e6;
+  border-radius: 50px;
+  opacity: 1;
+  margin-bottom: 20px;
+}
+
+.tc{
+    color :#223043;
+    font-weight: 600;
+}
+#check {
+  margin-left: 15px;
+  
+}
+
+#check:checked {
+  accent-color: #223043 !important ;
+}
+.checkText {
+  text-align: center;
+  font: normal normal medium 14px/14px Poppins;
+  letter-spacing: 0px;
+  color: #717b8a;
+  opacity: 1;
+  margin-left: 10px;
+}
+
+
+.checkBoxText{
+    display: flex !important;
+}
+
+/* .closeButton {
+  border: 1 solid;
+  margin-left: 100%;
+  margin-top: -10px;
+  height: 30px;
+  width: 31px;
+  background-color: #223043;
+  color: #fff;
+  border-radius: 50%;
+  border-color: lightgrey;
+} */
+
+.ant-modal-close {
+  border: 1 solid !important;
+  margin-left: 100% !important;
+  margin-right: -25px;
+  margin-top: -25px !important;
+  height: 30px !important;
+  width: 31px !important;
+  background-color: #223043 !important;
+  color: #fff !important;
+  border-radius: 50% !important;
+  border-color: lightgrey !important;
+}
+/* .ant-modal-close-x{
+    border: 1 solid;
+    margin-left: 100%;
+    margin-top: -10px;
+    height: 30px;
+    width: 31px;
+    background-color: #223043;
+    color: #fff;
+    border-radius: 50%;
+    border-color: lightgrey;
+} */
+
+.forgotPass {
+  font-weight: 600;
+  margin-left: 90px;
+  text-decoration: underline;
+  color: #223043;
+}
+
+.signUp {
+  font-weight: 600;
+  margin-left: 10px;
+  text-decoration: underline;
+  color: #5ba10c;
+}
+.signText {
+  text-align: center;
+  font: normal normal medium 16px/26px Poppins;
+  letter-spacing: 0px;
+  color: #717b8a;
+}
+
+@media (max-width: 950px) {
+
+  .newBtn{
+    margin-left: -50px;
+  }
+}

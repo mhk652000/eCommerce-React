@@ -1,0 +1,153 @@
+.mainDelivery {
+  margin-left: 9.5%;
+  width: 81%;
+  height: 100%;
+  padding-bottom: 20px;
+
+  /* UI Properties */
+  background: #fbfbfb 0% 0% no-repeat padding-box;
+  border: 1px solid #e2e5e6;
+  border-radius: 10px;
+  opacity: 1;
+}
+
+.deliveryMain {
+  width: 1158px;
+  height: 735px;
+  /* UI Properties */
+  background: #fbfbfb;
+  border: 1px solid #e2e5e6;
+  border-radius: 10px;
+  opacity: 1;
+}
+
+.circleHead {
+  border-radius: 25px;
+  height: 30px;
+  width: 30px;
+  border: 2px solid;
+  border-color: #223043;
+  background-color: #fff;
+  color: #223043;
+}
+
+.addressHeading {
+  margin-top: 2px;
+  width: 178px;
+  height: 33px;
+  /* UI Properties */
+  text-align: left;
+  font: Poppins;
+  letter-spacing: 0px;
+  color: #223043;
+  opacity: 1;
+}
+
+.addressText {
+  /* UI Properties */
+  text-align: left;
+  font: normal normal medium 14px/22px Poppins;
+  letter-spacing: 0px;
+  color: #747f92;
+  width: 626px;
+  height: 100%;
+  font-weight: 600;
+  opacity: 1;
+  margin-bottom: 25px;
+}
+
+.deliveryInput {
+  width: 290px;
+  height: 40px;
+  /* UI Properties */
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #e2e5e6;
+  border-radius: 50px;
+  opacity: 1;
+  margin-bottom: 7%;
+}
+
+.deliveryInput::placeholder {
+  padding-left: 15px;
+}
+
+.deliveryLabel {
+  width: 169px;
+  height: 23px;
+  /* UI Properties */
+  text-align: left;
+  font: normal normal medium 14px/23px Poppins;
+  letter-spacing: 0.42px;
+  color: #223043;
+  opacity: 1;
+}
+
+.deliveryButton {
+  width: 148px;
+  height: 50px;
+  /* UI Properties */
+  background: #5ba10c 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 24px #5ba10c26;
+  border-radius: 50px;
+  opacity: 1;
+  border: 0;
+  color: #fff;
+}
+
+.addressDeliveryInput {
+  border-radius: 5px;
+  width: 100%;
+  height: 120px;
+  /* UI Properties */
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #e2e5e6;
+  opacity: 1;
+  margin-bottom: 5%;
+}
+
+.addressDeliveryInput::placeholder {
+  padding-left: 15px;
+}
+
+.innerDelivery {
+  margin-top: 20px;
+  margin-left: 50px;
+}
+
+
+
+@media (max-width: 950px) {
+
+  .addressText{
+    width: 250px;
+  }
+
+  .deliveryInput{
+    width: 240px;
+  }
+
+  .addressDeliveryInput{
+    width: 240px;
+    margin-left: -10px;
+  }
+
+  .deliveryFormInput{
+    margin-left: -15px;
+  }
+
+  .checkTextt{
+    margin-top: 5% !important;
+    margin-left: 0% !important;
+    margin-bottom: 5% !important;
+    margin-left: 2% !important;
+  }
+
+  .deliveryButtonDiv{
+    display: block !important;
+    text-align: left;
+  }
+
+  .deliveryButton{
+    margin-top: 5%;
+  }
+}

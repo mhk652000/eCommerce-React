@@ -1,0 +1,39 @@
+.blogMain{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.featuredHeading{
+    text-align: left;
+}
+
+.featuredMainHeading{
+    text-align: left;
+}
+
+.mainBlogText{
+    margin-top: -10px;
+    text-align: left;
+    margin-left: 25px;
+}
+.blogText{
+    color: #747F92;
+    font-weight: 600;
+}
+
+.blogTime{
+    color: #747F92;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.blogHeading{
+    margin-bottom: 10px;
+}
+
+
+@media (max-width: 950px) {
+    .hHomeBtn{
+        margin-right: 120px;
+    }
+}

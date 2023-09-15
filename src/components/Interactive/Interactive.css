@@ -1,0 +1,123 @@
+.mainInteractive {
+  width: 100%;
+  height: 100%;
+  background-color: #f3fff7;
+}
+
+.hContainer {
+    padding-top: 70px;
+  display: flex;
+  justify-content: space-around;
+}
+.ss{
+
+}
+.cream {
+  height: 400px;
+  width: 350px;
+}
+
+.creamLogo {
+  float: left;
+  width: 350px;
+  display: inline-block;
+}
+
+.homeTextContainer {
+    padding-top: 90px;
+  text-align: left;
+  width: 503px;
+}
+
+.hHeading {
+  width: 315px;
+  margin-bottom: 0px;
+  text-align: left;
+  font: Poppins;
+  letter-spacing: 0px;
+  color: #000000;
+  font-size: xxx-large;
+  font-weight: 700;
+  opacity: 1;
+}
+
+.hHeading1 {
+  width: 330px;
+  height: 60px;
+  text-align: left;
+  font: Poppins;
+  letter-spacing: 0px;
+  color: #5ba10c;
+  font-size: xxx-large;
+  font-weight: 700;
+  opacity: 1;
+}
+
+.hText {
+  font: 16px/30px Poppins;
+  font-weight: 600;
+  height: 85px;
+  color: #747f92;
+}
+
+.hHomeBtn {
+  top: 663px;
+  left: 715px;
+  width: 130px;
+  height: 45px;
+  /* UI Properties */
+  background: #5ba10c 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #7fb64159;
+  border-radius: 53px;
+  opacity: 1;
+  border: 0;
+  color: #fff;
+}
+
+@media (max-width: 950px) {
+.hContainer{
+  display: block;
+}
+
+.hHomeBtn{
+  margin-left: 25%;
+}
+.hText{
+  width: 70%;
+}
+
+.cream{
+  width: 150px;
+  height: 150px;
+}
+.creamLogo{
+  margin-top: -20px;
+  width: 290px;
+  display: block;
+  margin-left: 40px;
+}
+
+.creamShadow{
+  width: 150px;
+  height: 150px;
+}
+
+.homeTextContainer{
+  text-align: center;
+  margin-left: 10px;
+}
+
+.hHeading{
+  text-align: center;
+  margin-left: 15px;
+}
+
+.hHeading1{
+  text-align: center;
+  margin-left: 10px;
+}
+
+.btnType{
+  margin-left: -40px !important;
+}
+}
